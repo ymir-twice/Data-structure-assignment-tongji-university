@@ -18,5 +18,8 @@
     <ClCompile Include="选取最好的战舰.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="各种排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
