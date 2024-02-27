@@ -11,10 +11,11 @@ using namespace chrono;
 const int Max_size = 1000000;
 const int TIW = 10;  // table interval width
 
-vector<int> nums;
+vector<int> nums;          // 数组
 vector<int> tmp(Max_size); // 归并排序用
 vector<long long> baseline(8);
 
+// 生成随机数序列
 void ini_nums(int size, int mode = 0, int shift = 0)
 {
 	if (mode == 1) {
@@ -43,6 +44,7 @@ void ini_nums(int size, int mode = 0, int shift = 0)
 	return;
 }
 
+// 测试STL的 sort
 void get_baseline()
 {
 	int cnt = 0;
