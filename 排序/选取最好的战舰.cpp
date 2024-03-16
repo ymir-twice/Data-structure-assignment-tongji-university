@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <cstring>
 #include <iomanip>
 #include <iostream>
@@ -211,8 +210,6 @@ void merge_sort(vector<int>& Seq, vector<int>& merge_cache, vector<LNode*>& tail
 
 int main(int argc, char** argv)
 {
-    freopen("test.txt", "r", stdin);
-
     // 命令行交互提示
     check_cmd_input(argc, argv);
 
@@ -297,7 +294,6 @@ int main(int argc, char** argv)
 
     cout << "Complete!" << endl;
 
-    fclose(stdin);
 
     return 0;
 }

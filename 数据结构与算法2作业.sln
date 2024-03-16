@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "排序", "排序\排序.vcxproj", "{1B5C7590-F4B1-407E-A79C-749AA8A33CDA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "作业工具包", "作业工具包\作业工具包.vcxproj", "{B6B7BA4E-760C-47DA-9FE1-228028575695}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{1B5C7590-F4B1-407E-A79C-749AA8A33CDA}.Release|x64.Build.0 = Release|x64
 		{1B5C7590-F4B1-407E-A79C-749AA8A33CDA}.Release|x86.ActiveCfg = Release|Win32
 		{1B5C7590-F4B1-407E-A79C-749AA8A33CDA}.Release|x86.Build.0 = Release|Win32
+		{B6B7BA4E-760C-47DA-9FE1-228028575695}.Debug|x64.ActiveCfg = Debug|x64
+		{B6B7BA4E-760C-47DA-9FE1-228028575695}.Debug|x64.Build.0 = Debug|x64
+		{B6B7BA4E-760C-47DA-9FE1-228028575695}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6B7BA4E-760C-47DA-9FE1-228028575695}.Debug|x86.Build.0 = Debug|Win32
+		{B6B7BA4E-760C-47DA-9FE1-228028575695}.Release|x64.ActiveCfg = Release|x64
+		{B6B7BA4E-760C-47DA-9FE1-228028575695}.Release|x64.Build.0 = Release|x64
+		{B6B7BA4E-760C-47DA-9FE1-228028575695}.Release|x86.ActiveCfg = Release|Win32
+		{B6B7BA4E-760C-47DA-9FE1-228028575695}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
